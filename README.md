@@ -10,6 +10,7 @@ Before setting up Craft CMS, ensure you have the following installed:
 - PHP (version 8.0 or higher)  
 - Composer  
 - MySQL or PostgreSQL database  
+- DDEV
 
 ## Avoid
 - Redactor (plug-in, app has been abandoned)
