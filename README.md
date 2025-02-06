@@ -77,3 +77,16 @@ ddev launch
 ```sh
 
 ```
+
+## What to Use While Developing
+```sh
+https://example.ddev.site
+```
+
+```sh
+https://example.ddev.site/admin/login
+```
+
+```sh
+http://localhost/phpmyadmin/
+```
