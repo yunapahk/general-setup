@@ -79,14 +79,18 @@ ddev launch
 ```
 
 ## What to Use While Developing
+
+###. Live View
 ```sh
 https://example.ddev.site
 ```
 
+###. Craft 
 ```sh
 https://example.ddev.site/admin/login
 ```
 
+###. Database (phpMyAdmin)
 ```sh
 http://localhost/phpmyadmin/
 ```
