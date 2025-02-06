@@ -16,7 +16,7 @@ Before setting up Craft CMS, ensure you have the following installed:
 - Redactor (plug-in, app has been abandoned)
 - XAMPP, Apache (craft prefers ddev)
 
-## Installation Steps  
+# Installation Steps For Existing Repo  
 
 ### 1. Clone the Project Repository  
 ```sh
@@ -45,10 +45,33 @@ chmod -R 775 storage/ config/ web/cpresources/
 php craft setup
 ```
 
-### . 6 Apply Database Migrations
+### . 6
 ```sh
 
 ```
+
+# From Scratch
+
+### . 1
+```sh
+mkdir new
+```
+
+### . 2
+```sh
+ddev config --project-type=craftcms --docroot=web
+```
+
+### . 3
+```sh
+ddev composer create -y --no-scripts craftcms/craft
+```
+
+### . 4
+```sh
+ddev launch
+```
+
 
 ### . S
 ```sh
